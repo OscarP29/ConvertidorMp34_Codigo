@@ -1,1 +1,7 @@
 *.exe filter=lfs diff=lfs merge=lfs -text
+Ffmpeg 7.1/* linguist-vendored
+Resourses/* linguist-vendored
+__pycache__/* linguist-vendored
+*.ico linguist-vendored
+*.json linguist-vendored
+*.html linguist-vendored
