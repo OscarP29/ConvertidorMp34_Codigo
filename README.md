@@ -1,56 +1,64 @@
+# 🎧 Convertidor MP3 / MP4
 
-🎧 Convertidor MP3 / MP4
-Un convertidor multimedia desarrollado en Python que permite descargar y convertir videos o audio fácilmente a formato MP3 o MP4.
-
+Un convertidor multimedia desarrollado en **Python** que permite descargar y convertir videos o audio fácilmente a formato **MP3** o **MP4**.
 Ideal para quienes buscan una herramienta ligera, sin complicaciones y totalmente funcional.
 
-✨ Características
-Descarga videos en formato MP4 o MP3.
+---
 
-Interfaz limpia y sencilla
+## ✨ Características
 
-Permite elegir la carpeta de destino.
+* Descarga videos en formato **MP4 o MP3**.
+* Interfaz limpia y sencilla.
+* Permite elegir la **carpeta de destino**.
+* Nombres de archivos organizados automáticamente.
 
-Nombres de archivos organizados automáticamente.
+---
 
-⚙️ Tecnologías utilizadas
-Python — Lenguaje principal del proyecto.
+## ⚙️ Tecnologías utilizadas
 
-yt-dlp — Para la descarga y manejo de videos desde distintas plataformas.
+* **Python** — Lenguaje principal del proyecto.
+* **yt-dlp** — Descarga y manejo de videos desde distintas plataformas.
+* **FFmpeg** — Conversión y procesamiento de audio y video.
 
-FFmpeg — Para la conversión y procesamiento de audio y video.
+---
 
-🚀 Cómo usar
+## 🚀 Cómo usar
+
 Tienes dos opciones para utilizar esta herramienta:
 
-Opción 1: Ejecutable
+### 🔹 Opción 1: Ejecutable
+
 Si prefieres no instalar Python ni sus dependencias, puedes usar la versión compilada:
 
-Descarga el archivo o el ejecutable correspondiente desde la sección Releases del repositorio.
+1. Descarga el archivo o ejecutable correspondiente desde la sección **Releases** del repositorio.
+2. Simplemente **ejecuta el archivo**.
 
-Simplemente ejecuta el archivo.
+> ⚠️ Nota: la versión ejecutable ya incluye las dependencias necesarias.
 
-Opción 2: Desde el Código Fuente
-Sigue estos pasos si deseas ejecutar el proyecto directamente desde el código fuente:
+---
 
-Clona el repositorio:
+### 🔹 Opción 2: Desde el Código Fuente
 
-Bash
+Sigue estos pasos si deseas ejecutar el proyecto directamente desde el código fuente.
 
-git clone https://github.com/tuusuario/ConvertidorMP3-MP4.git
-cd ConvertidorMP3-MP4
-Instala las dependencias necesarias:
+#### 1) Clona el repositorio
 
-Bash
+```bash
+git clone https://github.com/OscarP29/ConvertidorMp34_Codigo.git
+```
 
-pip install yt-dlp ffmpeg-python
-Ejecuta el programa:
+#### 3) Instala las dependencias de Python
 
-Bash
+```bash
+pip install yt-dlp
+```
+> ⚠️ Nota: La dependecia <strong>ffmpeg</strong> debe ser o estar instalada en su sistema operativo.
+> 
+## 🧩 Próximas mejoras
 
-🧩 Próximas mejoras
-Mejoras en la optimizacion y manejo de errores.
+* ⚡ Optimización y mejor manejo de errores.
+* 🪄 Interfaz gráfica más moderna.
+* 📚 Opción de **cola de descargas**.
 
-Interfaz gráfica más moderna.
+---
 
-Opción de cola de descargas.
