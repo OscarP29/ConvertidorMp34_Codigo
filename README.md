@@ -52,7 +52,7 @@ git clone https://github.com/OscarP29/ConvertidorMp34_Codigo.git
 ```bash
 pip install yt-dlp
 ```
-> ⚠️ Nota: La dependecia <strong>ffmpeg</strong> debe ser o estar instalada en su sistema operativo.
+> ⚠️ Nota: La dependencia <strong>ffmpeg</strong> debe ser o estar instalada en su sistema operativo.
 > 
 ## 🧩 Próximas mejoras
 
